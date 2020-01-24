@@ -19,7 +19,7 @@ public class task71_MethodOverloading {
 			return -1;
 		}
 		
-		double centimeters = (feet*12)*2.54;
+		double centimeters = (feet*12)*2.54 + (inches * 2.54); //edited here
 		
 		System.out.println(feet + " feet," + inches + " inches=" + centimeters + " centimeters");
 		
